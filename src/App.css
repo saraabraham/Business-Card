@@ -1,0 +1,134 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: #1A1B21;
+    width: 80%;
+    align-items: center;
+    margin: 20% auto 20% auto;
+    border-radius: 8px;
+    color: #DCDCDC;
+    font-family: "Inter", sans-serif;
+
+}
+
+.profile-pic {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+
+}
+
+.Title {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.Designation {
+    color: #F3BF99;
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.Job {
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 5%;
+}
+
+a {
+    font-size: 15px;
+    padding: 6% 20% 6% 20%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn1:active {
+    transform: scale(1.05);
+}
+
+.btn2:active {
+    transform: scale(1.05);
+}
+
+.icon {
+    width: 80%;
+    height: 80%;
+    margin-right: 10px;
+}
+
+.btn1 {
+
+    background-color: white;
+    color: #374151;
+}
+
+.btn2 {
+    background-color: #5093E2;
+    color: white;
+    margin-left: 15%;
+}
+
+.about {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+
+}
+
+.interests {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    margin-bottom: 10%;
+}
+
+.footer {
+    background-color: #161619;
+    height: 3%;
+    padding: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.insta-icon {
+    width: 15%;
+    height: 15%;
+    margin-left: 80%;
+
+
+
+}
+
+.git-icon {
+    width: 15%;
+    height: 15%;
+    /* margin-right: 10%; */
+
+
+}
+
+.icon {
+    font-size: 0px;
+    padding: 0%;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: space-between;
+
+}
