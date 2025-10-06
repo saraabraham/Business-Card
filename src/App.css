@@ -55,6 +55,12 @@
     margin-bottom: 1.5rem;
 }
 
+.icon {
+    height: 20px;
+    width: 20px;
+    margin-right: 3%;
+}
+
 a {
     display: flex;
     align-items: center;
@@ -122,6 +128,11 @@ a:active {
 .git-icon:hover,
 .insta-icon:hover {
     transform: scale(1.1);
+}
+
+.resume {
+    font-weight: bold;
+    cursor: pointer;
 }
 
 /* RESPONSIVE DESIGN */
